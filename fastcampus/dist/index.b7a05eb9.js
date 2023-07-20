@@ -574,8 +574,86 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"jeorp":[function(require,module,exports) {
-let hello = "Hello World!";
-console.log(hello);
+// 타입 종류
+// 문자
+let str;
+let red = "red";
+let green = "green";
+let myColor = `My color is ${red}`;
+let yourColor = "Your color is" + green;
+// 숫자
+let num;
+let integer = 6;
+let float = 3.14;
+let infinity = Infinity;
+let nan = NaN;
+// 불린
+let isBoolean;
+let isDone = true;
+// Null / Undefined
+let nul;
+let und;
+nul = null;
+// null 변수는 무조건 null을 할당해야한다. 하지않으면 에러
+let number;
+number = 5;
+// 사용할 때는 값을 할당하고 사용해야한다.
+console.log(nul);
+console.log(und);
+console.log(number);
+// 배열
+const fruits = [
+    "Apple",
+    "Banana",
+    "Cherry"
+];
+const numbers = [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+];
+const union = [
+    "Apple",
+    1,
+    2,
+    3,
+    "Banana"
+];
+const array = [];
+// 객체
+const obj = {};
+const arr = [];
+const func = function() {};
+const userA = {
+    name: "Heropy",
+    age: 85,
+    isValid: true
+};
+const userB = {
+    name: "Neo",
+    age: 22,
+    isValid: false
+};
+const userC = {
+    name: "Hi",
+    age: 20,
+    isValid: true
+};
+// 함수
+const add = function(x, y) {
+    return x + y;
+};
+const a = add(1, 2);
+const hello = function() {
+    console.log("hello world~");
+};
+const b = hello();
 
 },{}]},["fUTXd","jeorp"], "jeorp", "parcelRequire1cf5")
 
